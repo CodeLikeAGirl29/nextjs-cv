@@ -52,6 +52,7 @@ import blog2Thumbnail from '@/public/assets/img/blog/article2.png';
 import blog2Image from '@/public/assets/img/blog/article2.png';
 import blog3Thumbnail from '@/public/assets/img/blog/article3.png';
 import blog3Image from '@/public/assets/img/blog/article3.png';
+import blog4Image from '@/public/assets/img/blog/article4.png';
 
 import author1 from '@/public/assets/img/testimonial/author1.png';
 import author2 from '@/public/assets/img/testimonial/author2.png';
@@ -63,16 +64,18 @@ export const introduce = {
 		title: 'INTRODUCE',
 	},
 	heading: {
-		heading1: 'I Craft The',
-		heading2: 'Digital Landscape',
+		heading1: 'Turning Ideas into ',
+		heading2: 'Interactive Realities',
 	},
 	desc: (
 		<p>
 			I am a{' '}
 			<span className='font-medium text-black dark:text-white/90'>
-				Frontend Developer
+				Frontend Developer.
 			</span>{' '}
-			at heart and, i create features that are best suited for the job at hand.
+			I enjoy using my obsessive attention to detail, my unequivocal love for
+			creating things, and my mission-driven work ethic to complete my
+			objectives.
 		</p>
 	),
 	jobs: [
@@ -141,19 +144,19 @@ export const technologies = [
 	{
 		id: 1,
 		title: 'HTML5 & CSS3',
-		skill: '94',
+		skill: '90',
 		url: '#',
 	},
 	{
 		id: 2,
-		title: 'Bootstrap',
-		skill: '98',
+		title: 'React.js',
+		skill: '80',
 		url: '#',
 	},
 	{
 		id: 3,
 		title: 'TailwindCSS',
-		skill: '90',
+		skill: '70',
 		url: '#',
 	},
 ];
@@ -165,7 +168,7 @@ export const userDetails = [
 	},
 	{
 		field: 'Skype',
-		value: 'brown@com',
+		value: 'live:.cid.e150a93a0f1adeea',
 	},
 	{
 		field: 'Language',
@@ -230,21 +233,21 @@ export const userDetailsSidebar = {
 export const projectExperiences = [
 	{
 		title: 'Years Of Experience',
-		count: 185,
+		count: 4,
 		postFix: true,
 	},
 	{
 		title: 'Handled Projects',
-		count: 12,
+		count: 100,
 		postFix: true,
 	},
 	{
-		title: 'Open Source Libraries',
-		count: 5,
+		title: 'Available Hours',
+		count: 45,
 		postFix: true,
 	},
 	{
-		title: 'Awards Won',
+		title: 'Certifications',
 		count: 18,
 		postFix: false,
 	},
@@ -257,35 +260,35 @@ export const services = {
 		heading: 'My',
 		coloredHeading: 'Services',
 		description:
-			'I design products that are more than pretty. I make them shippable and usable, tempor non mollit dolor et do aute.',
+			'Crafting Intuitive and Engaging User Experiences with Cutting-Edge Frontend Development.',
 	},
 	servicesData: [
 		{
 			id: 1,
 			number: '01',
 			title: 'UI/UX Design',
-			desc: 'I design products that are more than pretty. I make them shippable.',
+			desc: 'Transforming ideas into visually stunning & user-friendly interfaces, ensuring a seamless & engaging user experience.',
 			icon: <UiUxIcon />,
 		},
 		{
 			id: 2,
 			number: '02',
 			title: 'Web Development',
-			desc: 'I design products that are more than pretty. I make them shippable.',
+			desc: 'I specialize in creating visually stunning, responsive websites that offer seamless user experiences & elevate your digital presence.',
 			icon: <WebDevIcon />,
 		},
 		{
 			id: 3,
 			number: '03',
 			title: 'SEO / Marketing',
-			desc: 'I design products that are more than pretty. I make them shippable.',
+			desc: 'Enhance your online presence & drive organic traffic with our tailored SEO & marketing strategies designed to boost your visibility while growing your audience.',
 			icon: <SeoIcon />,
 		},
 		{
 			id: 4,
 			number: '04',
 			title: 'Branding & Strategy',
-			desc: 'I design products that are more than pretty. I make them shippable.',
+			desc: 'Transform your brand vision into a cohesive & impactful digital presence with tailored strategies that resonate and engage.',
 			icon: <BrandingIcon />,
 		},
 	],
@@ -466,9 +469,9 @@ export const portfolio = {
 				thumbnailText1: 'Design',
 				thumbnailText2: 'Specialization',
 			},
-			type: 'Branding',
-			title: 'Three wine glasses filled with candies',
-			slug: 'three-wine-glasses-filled-with-candies',
+			type: 'Design',
+			title: '',
+			slug: 'navigating-the-css-landscape',
 			projectHeading: {
 				icon: <GrTasks className='text-theme' />,
 				title: 'Project Details',
@@ -476,15 +479,11 @@ export const portfolio = {
 			projectInfo: [
 				{
 					field: 'CLIENT',
-					value: 'Envato Theme',
+					value: '',
 				},
 				{
 					field: 'SERVICES',
-					value: 'Tips & Tricks, Design',
-				},
-				{
-					field: 'DURATION',
-					value: '108 hrs',
+					value: 'Responsive, Design',
 				},
 			],
 			projectDescription: {
@@ -591,7 +590,7 @@ export const blogs = {
 		heading: 'Latest',
 		coloredHeading: 'Insights',
 		description:
-			'I design products that are more than pretty. I make them shippable and usable, ttempor non mollit dolor et do aute',
+			'Discover the latest insights and trends in Web Development on my blog, where I delve into topics ranging from JavaScript frameworks to API integration, offering valuable perspectives and actionable advice.',
 	},
 	blogsData: [
 		{
@@ -599,10 +598,10 @@ export const blogs = {
 				thumbnail: blog1Thumbnail?.src,
 				image: blog1Image?.src,
 			},
-			category: 'UI Design',
+			category: 'Frontend',
 			date: '03 May 2023',
-			title: 'Elevate your mornings with perfectly brewed coffee',
-			slug: 'elevate-your-mornings-with-perfectly-brewed-coffee',
+			title: 'Supercharged Development: Why Gatsby.js Is My Go-To Framework',
+			slug: 'supercharged-dev-why-gatsby-is-my-goto',
 			blogInfo: {
 				projectHeading: {
 					icon: <FaBlog className='text-theme' />,
@@ -611,15 +610,15 @@ export const blogs = {
 				projectInfo: [
 					{
 						field: 'POSTED BY',
-						value: 'Adrinao Smith',
+						value: 'Lindsey',
 					},
 					{
 						field: 'CATEGORY:',
-						value: 'Tips & Tricks, Design',
+						value: 'Frameworks, Design',
 					},
 					{
 						field: 'POSTED ON:',
-						value: 'Noveber 01, 2023',
+						value: 'May 03, 2023',
 					},
 				],
 				projectDescription: {
@@ -642,9 +641,9 @@ export const blogs = {
 				image: blog2Image?.src,
 			},
 			category: 'UI Design',
-			date: '03 May 2023',
-			title: 'Mastering the clock: A guide to time management',
-			slug: 'mastering-the-clock-a-guide-to-time-management',
+			date: '13 May 2023',
+			title: 'Navigating the CSS Landscape',
+			slug: 'navigating-the-css-landscape',
 			blogInfo: {
 				projectHeading: {
 					icon: <FaBlog className='text-theme' />,
@@ -653,15 +652,15 @@ export const blogs = {
 				projectInfo: [
 					{
 						field: 'POSTED BY',
-						value: 'Adrinao Smith',
+						value: 'Lindsey',
 					},
 					{
 						field: 'CATEGORY:',
-						value: 'Tips & Tricks, Design',
+						value: 'Tips, Design',
 					},
 					{
 						field: 'POSTED ON:',
-						value: 'Noveber 01, 2023',
+						value: 'May 13, 2023',
 					},
 				],
 				projectDescription: {
@@ -684,8 +683,8 @@ export const blogs = {
 				image: blog3Image?.src,
 			},
 			category: 'UI Design',
-			date: '03 May 2023',
-			title: 'Homeward bound: Crafting a productive home office',
+			date: '23 May 2023',
+			title: 'JavaScript Fundamentals: Understanding the Core Concepts',
 			slug: 'homeward-bound-crafting-a-productive-home-office',
 			blogInfo: {
 				projectHeading: {
@@ -695,15 +694,15 @@ export const blogs = {
 				projectInfo: [
 					{
 						field: 'POSTED BY',
-						value: 'Adrinao Smith',
+						value: 'Lindsey',
 					},
 					{
 						field: 'CATEGORY:',
-						value: 'Tips & Tricks, Design',
+						value: 'Frontend',
 					},
 					{
 						field: 'POSTED ON:',
-						value: 'Noveber 01, 2023',
+						value: 'May 23, 2023',
 					},
 				],
 				projectDescription: {
@@ -723,12 +722,12 @@ export const blogs = {
 		{
 			image: {
 				thumbnail: blog1Thumbnail?.src,
-				image: blog1Image?.src,
+				image: blog4Image?.src,
 			},
-			category: 'UI Design',
-			date: '03 May 2023',
-			title: 'Elevate your mornings with perfectly brewed coffee',
-			slug: 'elevate-your-mornings-with-perfectly-brewed-coffee',
+			category: 'Code',
+			date: '03 June 2023',
+			title: 'Integrating External Data into Your Web Projects',
+			slug: 'integrating-external-data-into-your-web-projects',
 			blogInfo: {
 				projectHeading: {
 					icon: <FaBlog className='text-theme' />,
@@ -737,15 +736,15 @@ export const blogs = {
 				projectInfo: [
 					{
 						field: 'POSTED BY',
-						value: 'Adrinao Smith',
+						value: 'Lindsey',
 					},
 					{
 						field: 'CATEGORY:',
-						value: 'Tips & Tricks, Design',
+						value: 'Code',
 					},
 					{
 						field: 'POSTED ON:',
-						value: 'Noveber 01, 2023',
+						value: 'June 03, 2023',
 					},
 				],
 				projectDescription: {
@@ -794,7 +793,7 @@ export const blogs = {
 					descriptionTitle: 'Cappuccino Bliss',
 					description:
 						'Patent authorities globally are grappling with the challenge of redefining their approach to handling inventions generated not by human ingenuity but by AI. It has sparked considerable debate within the intellectual property community.',
-					descriptionListsTitle: 'Benifits of coffee',
+					descriptionListsTitle: 'Benefits of coffee',
 					descriptionLists: [
 						'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do',
 						'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris',
@@ -812,9 +811,8 @@ export const testimonials = {
 		icon: <BiCommentCheck className='text-theme' />,
 		title: 'TESTIMONIAL',
 		heading: 'What',
-		coloredHeading: 'People Say',
-		description:
-			'I design products that are more than pretty. I make them shippable and usable, ttempor non mollit dolor et do aute',
+		coloredHeading: 'People Say:',
+		description: ' I deliver beyond their expectations',
 	},
 	testimonialsData: [
 		{
@@ -822,12 +820,15 @@ export const testimonials = {
 			image: author1?.src,
 			desc: (
 				<div className='text-sm md:text-[15px] leading-loose content'>
-					Working with <span className='font-semibold text-theme'>Reddick</span>{' '}
-					is a game-changer. Their coding expertise and commitment to quality
-					make every project a success.
+					I had the pleasure of working with{' '}
+					<span className='font-semibold text-theme'>Lindsey</span> on our
+					latest web development project, and I couldn&apos;t be more satisfied
+					with the results. From the initial consultation to the final launch,
+					she demonstrated exceptional expertise, creativity, and
+					professionalism.
 				</div>
 			),
-			name: 'Alex Johnson',
+			name: 'Sarah Yates',
 			position: 'Developer',
 		},
 		{
@@ -835,22 +836,22 @@ export const testimonials = {
 			image: author2?.src,
 			desc: (
 				<div className='text-sm md:text-[15px] leading-loose content'>
-					<span className='font-semibold text-theme'>Reddick</span> exceeds
+					<span className='font-semibold text-theme'>Lindsey</span> exceeds
 					expectations with top-tier coding skills. Reliable, collaborative, and
-					a true asset to any project. Highly recommended
+					a true asset to any project. Highly recommended!
 				</div>
 			),
 			name: 'Mily Martin',
-			position: 'CEO @IT Theme',
+			position: 'Project Manager',
 		},
 		{
 			id: 3,
 			image: author1?.src,
 			desc: (
 				<div className='text-sm md:text-[15px] leading-loose content'>
-					Working with <span className='font-semibold text-theme'>Reddick</span>{' '}
+					Working with <span className='font-semibold text-theme'>Lindsey</span>{' '}
 					is a game-changer. Their coding expertise and commitment to quality
-					make every project a success.
+					make every project effortless.
 				</div>
 			),
 			name: 'Alex Johnson',
@@ -866,25 +867,25 @@ export const contactInfo = {
 		heading: 'Contact',
 		coloredHeading: 'Me.',
 		description:
-			'I design products that are more than pretty. I make them shippable and usable, ttempor non mollit dolor et do aute',
+			'I love being able to help people by simplifying some of life&apos;s more complex problems.',
 	},
 	contactInfoData: [
 		{
 			id: 1,
 			field: 'Location',
-			data: 'Melbourne Street. No 20',
+			data: 'Fort Walton Beach, FL 32548',
 			Icon: <LocationIcon />,
 		},
 		{
 			id: 2,
 			field: 'E-mail',
-			data: 'smith@gmail.com',
+			data: 'lindseykdev@gmail.com',
 			Icon: <EmailIcon />,
 		},
 		{
 			id: 3,
 			field: 'Phone',
-			data: '+976 34 99 99',
+			data: '850.533.5877',
 			Icon: <PhoneIcon />,
 		},
 	],
