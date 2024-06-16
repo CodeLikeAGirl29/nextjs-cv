@@ -349,29 +349,29 @@ export const resume = {
 		heading: 'Work',
 		coloredHeading: 'Experience',
 		description:
-			'I design products that are more than pretty. I make them shippable and usable, ttempor non mollit dolor et do aute',
+			'I have successfully designed and developed responsive, user-friendly websites and web applications, leveraging modern technologies such as React, CSS3, and JavaScript, while ensuring optimal performance and seamless user experiences.',
 	},
 	resumeData: [
 		{
-			platform: 'Envato Market',
-			duration: 'Mar, 2022 - Current',
-			position: 'Lead UX Designer',
+			platform: 'Freelancer',
+			duration: 'April 2021 - Current',
+			position: 'Web Developer',
 			description:
-				'Owing to advancements in product other designer technologies aute voluptate.',
+				'As a freelance web developer, I design, develop, and maintain dynamic and responsive websites for a diverse range of clients, leveraging the latest technologies and frameworks to deliver high-quality, user-friendly digital experiences.',
 		},
 		{
-			platform: 'Google',
-			duration: '2018 - 2022',
-			position: 'UX Designer',
+			platform: 'JBL Painting',
+			duration: 'Oct 2021 - Jan 2024',
+			position: 'Interior Painter',
 			description:
-				'Owing to advancements in product other designer technologies aute voluptate.',
+				'Skilled interior painter with experience in preparing, priming, and painting residential and commercial spaces, ensuring high-quality finishes and customer satisfaction through meticulous attention to detail and color matching.',
 		},
 		{
-			platform: 'Apple',
-			duration: '2014-2018',
-			position: 'Human Interface Designer',
+			platform: 'Tristate Marketing',
+			duration: 'Oct 2016 - April 2021',
+			position: 'Sales & Marketing',
 			description:
-				'Owing to advancements in product other designer technologies aute voluptate.',
+				'Developed and executed strategic sales and marketing plans, successfully increasing revenue and expanding market presence through targeted campaigns and effective team leadership.',
 		},
 	],
 };
@@ -383,29 +383,27 @@ export const educations = {
 		heading: 'My',
 		coloredHeading: 'Education',
 		description:
-			'I design products that are more than pretty. I make them shippable and usable, ttempor non mollit dolor et do aute',
+			'Graduated with an Associate&apos;s in Computer Science from Florida Tech, demonstrating a strong foundation in systems analysis, programming and electronic commerce, and consistently achieving high academic performance.',
 	},
 	educationsData: [
 		{
-			institution: 'Oxford University',
-			duration: '2016-2018',
-			degree: 'Diploma in Computer',
-			description:
-				'Owing to advancements in product other designer technologies aute voluptate.',
+			institution: 'Meta',
+			duration: '2022-2022',
+			degree: 'Front-end Developer Professional',
+			description: '',
 		},
 		{
-			institution: 'Google',
-			duration: '2018 - 2022',
-			degree: 'BSc in Engineering',
-			description:
-				'Owing to advancements in product other designer technologies aute voluptate.',
+			institution: 'IBM',
+			duration: '2022 - 2022',
+			degree: 'Front-end Developer',
+			description: '',
 		},
 		{
-			institution: 'Oxford University',
+			institution: 'Florida Tech',
 			duration: '2014-2018',
-			degree: 'Php Development',
+			degree: 'Associate&apos;s - Computer Science',
 			description:
-				'Owing to advancements in product other designer technologies aute voluptate.',
+				'Learned the fundamentals of algorithmic thinking and gain the ability to express solutions to problems using computer-programming languages.',
 		},
 	],
 };
