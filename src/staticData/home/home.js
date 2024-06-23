@@ -95,47 +95,22 @@ export const introduce = {
 export const partners = [
 	{
 		imgUrl: partner1Image,
-		altText: 'Partner Name 1',
+		altText: 'freeCodeCamp',
 		link: '#',
 	},
 	{
 		imgUrl: partner2Image,
-		altText: 'Partner Name 2',
+		altText: 'IBM',
 		link: '#',
 	},
 	{
 		imgUrl: partner3Image,
-		altText: 'Partner Name 3',
+		altText: 'Meta',
 		link: '#',
 	},
 	{
 		imgUrl: partner4Image,
-		altText: 'Partner Name 4',
-		link: '#',
-	},
-	{
-		imgUrl: partner2Image,
-		altText: 'Partner Name 5',
-		link: '#',
-	},
-	{
-		imgUrl: partner4Image,
-		altText: 'Partner Name 6',
-		link: '#',
-	},
-	{
-		imgUrl: partner2Image,
-		altText: 'Partner Name 7',
-		link: '#',
-	},
-	{
-		imgUrl: partner4Image,
-		altText: 'Partner Name 8',
-		link: '#',
-	},
-	{
-		imgUrl: partner2Image?.src,
-		altText: 'Partner Name 9',
+		altText: 'Microsoft',
 		link: '#',
 	},
 ];
@@ -180,7 +155,7 @@ export const userDetails = [
 	},
 	{
 		field: 'GitHub',
-		value: 'github.com/codelikeagirl29',
+		value: '@CodeLikeAGirl29',
 	},
 ];
 
@@ -225,7 +200,7 @@ export const userDetailsSidebar = {
 		{
 			id: 4,
 			name: 'PHP',
-			value: 90,
+			value: 55,
 		},
 	],
 };

@@ -43,7 +43,7 @@ export const siteSettings = {
 		},
 		{
 			id: 3,
-			title: 'Service',
+			title: 'Services',
 			selector: '#service',
 			url: '/',
 			Icon: <IoBriefcaseOutline />,
@@ -104,21 +104,21 @@ export const siteSettings = {
 			name: 'Linkedin',
 			tooltip: 'Share with Linkedin',
 			Icon: <FaLinkedin />,
-			url: '#',
+			url: 'https://linkedin.com/in/lindsey-howard',
 		},
 		{
 			id: 3,
 			name: 'X',
 			tooltip: 'Share with X',
 			Icon: <FaTwitter />,
-			url: '#',
+			url: 'https://twitter.com/dev_lindseyk',
 		},
 		{
 			id: 4,
 			name: 'Instagram',
 			tooltip: 'Share with Instagram',
 			Icon: <FaInstagram />,
-			url: '#',
+			url: 'https://instagram.com/fiercely.lindseyy',
 		},
 	],
 	preloader: {

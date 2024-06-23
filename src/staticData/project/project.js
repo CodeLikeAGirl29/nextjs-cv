@@ -12,16 +12,16 @@ export const projectTechnologies = [
 	{
 		title: 'JavaScript',
 		image: '/assets/img/skill/js.svg',
-		value: 60,
+		value: 70,
 	},
 	{
 		title: 'TailwindCSS',
 		image: '/assets/img/skill/tailwind.svg',
-		value: 90,
+		value: 60,
 	},
 	{
 		title: 'Node.js',
 		image: '/assets/img/skill/nodejs.svg',
-		value: 90,
+		value: 80,
 	},
 ];
