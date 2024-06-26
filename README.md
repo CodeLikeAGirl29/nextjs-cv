@@ -8,6 +8,8 @@
 
 > The Personal Portfolio & Resume project is a modern, responsive web application built using Next.js. It is designed to showcase an individual's professional skills, experience, projects, & educational background in a visually appealing & user-friendly manner.
 
+[![CodeFactor](https://www.codefactor.io/repository/github/codelikeagirl29/nextjs-cv/badge)](https://www.codefactor.io/repository/github/codelikeagirl29/nextjs-cv)
+
 ### Screenshot
 
 ![image](https://res.cloudinary.com/codelikeagirl29/image/upload/v1718235290/Personal-Resume-vCard-Nextjs-Template_o4hd4q.png)
