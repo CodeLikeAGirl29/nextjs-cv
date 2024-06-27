@@ -275,8 +275,7 @@ export const skills = {
 		title: 'SKILLS',
 		heading: 'My',
 		coloredHeading: 'Advantages',
-		description:
-			'I design products that are more than pretty. I make them shippable and usable, ttempor non mollit dolor et do aute',
+		description: 'Building Responsive and Interactive Web Solutions',
 	},
 	skillsData: [
 		{
@@ -376,7 +375,7 @@ export const educations = {
 		{
 			institution: 'Florida Tech',
 			duration: '2014-2018',
-			degree: 'Associate&apos;s - Computer Science',
+			degree: "Associate's - Computer Science",
 			description:
 				'Learned the fundamentals of algorithmic thinking and gain the ability to express solutions to problems using computer-programming languages.',
 		},
@@ -389,8 +388,7 @@ export const portfolio = {
 		title: 'PORTFOLIO',
 		heading: 'Featured ',
 		coloredHeading: 'Projects',
-		description:
-			'I design products that are more than pretty. I make them shippable and usable, ttempor non mollit dolor et do aute',
+		description: 'Showcasing Creativity in Code',
 	},
 	projectsData: [
 		{
@@ -595,14 +593,17 @@ export const blogs = {
 					},
 				],
 				projectDescription: {
-					descriptionTitle: 'Cappuccino Bliss',
+					descriptionTitle: 'Unleashing the Power of Gatsby.js',
 					description:
-						'Patent authorities globally are grappling with the challenge of redefining their approach to handling inventions generated not by human ingenuity but by AI. It has sparked considerable debate within the intellectual property community.',
-					descriptionListsTitle: 'Benifits of coffee',
+						'Gatsby.js has emerged as one of the most popular static site generators, combining the best of React and GraphQL to deliver blazing-fast, scalable, and feature-rich websites. Whether you&apos;re a frontend developer looking to streamline your workflow or a business aiming for a performant web presence, Gatsby.js has a lot to offer. Gatsby.js is more than just a static site generator—it&apos;s a powerful tool that brings speed, security, and flexibility to web development. With its modern tech stack, rich plugin ecosystem, and robust community support, Gatsby is well-suited for developers and businesses looking to create high-performance websites. Embrace Gatsby.js, and unlock the potential of building fast, scalable, and SEO-friendly web applications. Here are some compelling reasons to love Gatsby.js:',
+					descriptionListsTitle: 'Benefits of using Gatsby.js',
 					descriptionLists: [
-						'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do',
-						'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris',
-						'Excepteur sint occaecat cupidatat non proident, sunt in culpa',
+						'Blazing Fast Performance',
+						'SEO-Friendly Out of the Box',
+						' Rich Plugin Ecosystem',
+						'React and GraphQL Integration',
+						'Excellent Documentation and Community Support',
+						'Scalability and Flexibility',
 					],
 					projectImage: [projectInner2Image?.src, projectInner1Image?.src],
 				},
@@ -640,7 +641,7 @@ export const blogs = {
 					descriptionTitle: 'Cappuccino Bliss',
 					description:
 						'Patent authorities globally are grappling with the challenge of redefining their approach to handling inventions generated not by human ingenuity but by AI. It has sparked considerable debate within the intellectual property community.',
-					descriptionListsTitle: 'Benifits of coffee',
+					descriptionListsTitle: 'Benefits of coffee',
 					descriptionLists: [
 						'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do',
 						'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris',
@@ -682,7 +683,7 @@ export const blogs = {
 					descriptionTitle: 'Cappuccino Bliss',
 					description:
 						'Patent authorities globally are grappling with the challenge of redefining their approach to handling inventions generated not by human ingenuity but by AI. It has sparked considerable debate within the intellectual property community.',
-					descriptionListsTitle: 'Benifits of coffee',
+					descriptionListsTitle: 'Benefits of coffee',
 					descriptionLists: [
 						'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do',
 						'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris',
@@ -724,7 +725,7 @@ export const blogs = {
 					descriptionTitle: 'Cappuccino Bliss',
 					description:
 						'Patent authorities globally are grappling with the challenge of redefining their approach to handling inventions generated not by human ingenuity but by AI. It has sparked considerable debate within the intellectual property community.',
-					descriptionListsTitle: 'Benifits of coffee',
+					descriptionListsTitle: 'Benefits of coffee',
 					descriptionLists: [
 						'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do',
 						'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris',

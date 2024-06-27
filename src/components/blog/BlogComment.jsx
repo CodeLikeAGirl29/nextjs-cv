@@ -48,7 +48,7 @@ const BlogComment = () => {
     <div>
       <div className="comments">
         <h3 className="mb-5 text-2xl font-medium text-black dark:text-white">
-          Comments (3)
+          Comments
         </h3>
 
         <ul className="comment-list">
